@@ -1,0 +1,3 @@
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+
+io.cloudslang.lang:cloudslang-enforcer:2.0.14-SNAPSHOT

@@ -1,0 +1,1392 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-spi:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-spi:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-spi/pom.xml, line 58, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-runtime:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-runtime:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-runtime/pom.xml, line 197, column 21
+[[1;33mWARNING[m] The expression ${parent.version} is deprecated. Please use ${project.parent.version} instead.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-compiler:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-compiler:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-compiler/pom.xml, line 165, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-entities:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-entities:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-entities/pom.xml, line 150, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-all:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-all:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-all/pom.xml, line 126, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-content-verifier:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-content-verifier:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-content-verifier/pom.xml, line 294, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-content-maven-compiler:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.codehaus.plexus:plexus-component-metadata is missing. @ io.cloudslang.lang:cloudslang-content-maven-compiler:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-content-maven-compiler/pom.xml, line 77, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-content-maven-compiler:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-content-maven-compiler/pom.xml, line 136, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-api-commons:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-api-commons:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-api-commons/pom.xml, line 119, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-commons:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.owasp:dependency-check-maven is missing. @ io.cloudslang.lang:cloudslang-commons:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-commons/pom.xml, line 83, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.cloudslang.lang:cloudslang-enforcer:jar:2.0.14-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-io:commons-io:jar -> duplicate declaration of version (?) @ io.cloudslang.lang:cloudslang-enforcer:[unknown-version], /home/ch61/iDFlakies/cloud-slang/cloudslang-enforcer/pom.xml, line 137, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] io.cloudslang.lang:cloudslang                                      [pom]
+[[1;34mINFO[m] cloudslang-enforcer                                                [jar]
+[[1;34mINFO[m] cloudslang-spi                                                     [jar]
+[[1;34mINFO[m] cloudslang-entities                                                [jar]
+[[1;34mINFO[m] cloudslang-commons                                                 [jar]
+[[1;34mINFO[m] cloudslang-compiler                                                [jar]
+[[1;34mINFO[m] cloudslang-runtime                                                 [jar]
+[[1;34mINFO[m] cloudslang-all                                                     [jar]
+[[1;34mINFO[m] cloudslang-api-commons                                             [jar]
+[[1;34mINFO[m] cloudslang-cli                                                     [jar]
+[[1;34mINFO[m] cloudslang-tests                                                   [jar]
+[[1;34mINFO[m] cloudslang-content-verifier                                        [jar]
+[[1;34mINFO[m] cloudslang-content-maven-compiler                                  [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.cloudslang.lang:cloudslang[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding io.cloudslang.lang:cloudslang 2.0.14-SNAPSHOT            [1/13][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): io.cloudslang.lang:cloudslang:2.0.14-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.cloudslang.lang:cloudslang-enforcer[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-enforcer 2.0.14-SNAPSHOT                      [2/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-enforcer[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-enforcer/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-enforcer/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-enforcer[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-enforcer[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-enforcer:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): io.cloudslang.lang:cloudslang-enforcer:2.0.14-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.cloudslang.lang:cloudslang-spi[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-spi 2.0.14-SNAPSHOT                           [3/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-spi[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-spi/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-spi/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-spi[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-spi[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-spi:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): io.cloudslang.lang:cloudslang-spi:2.0.14-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.cloudslang.lang:cloudslang-entities[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-entities 2.0.14-SNAPSHOT                      [4/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-entities[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Skipping verification for Spring configuration class in file '/home/ch61/iDFlakies/cloud-slang/cloudslang-entities/src/main/java/configuration/SlangEntitiesSpringConfig.java'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-entities/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-entities/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-entities[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-entities[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-entities:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (62 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt, status: expected FAILURE, got FAILURE
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt, status: expected PASS, got PASS
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValuePreEncrypted, status: expected FAILURE, got FAILURE
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValuePreEncrypted, status: expected PASS, got PASS
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValue, status: expected FAILURE, got FAILURE
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValue, status: expected PASS, got PASS
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.bindings.values.ValueFactoryTest.testCreatePyObjectValueFromValueSensitive, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.bindings.values.ValueFactoryTest.testCreatePyObjectValueFromValueSensitive, status: expected PASS, got PASS
+[INFO] Found 4 tests in round 1 of 10 (0.0 seconds elapsed (16.1 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 1 of 10 (0.0 seconds elapsed (21.9 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt, status: expected FAILURE, got FAILURE
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (28.0 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 2 of 10 (6.0 seconds elapsed (33.5 total), 24.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (11.6 seconds elapsed (35.6 total), 27.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 4 of 10 (13.7 seconds elapsed (41.3 total), 20.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValuePreEncrypted, status: expected FAILURE, got FAILURE
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValuePreEncrypted, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 5 of 10 (19.3 seconds elapsed (46.6 total), 19.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (24.7 seconds elapsed (48.8 total), 16.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (26.8 seconds elapsed (50.9 total), 11.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (29.0 seconds elapsed (53.0 total), 7.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (31.1 seconds elapsed (55.3 total), 3.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (33.3 seconds elapsed (57.3 total), 0.0 seconds remaining).
+
+[INFO] Found 5 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-entities/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-entities/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.cloudslang.lang:cloudslang-commons[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-commons 2.0.14-SNAPSHOT                       [5/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-commons[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-commons/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-commons/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-commons[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-commons[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-commons:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (4 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (0.8 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (0.8 seconds elapsed (1.6 total), 3.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (1.6 seconds elapsed (2.4 total), 3.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (2.4 seconds elapsed (3.2 total), 3.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (3.2 seconds elapsed (4.1 total), 3.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (4.1 seconds elapsed (4.9 total), 2.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (4.9 seconds elapsed (5.8 total), 2.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (5.8 seconds elapsed (6.6 total), 1.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (6.6 seconds elapsed (7.4 total), 0.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (7.4 seconds elapsed (8.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-commons/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-commons/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.cloudslang.lang:cloudslang-compiler[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-compiler 2.0.14-SNAPSHOT                      [6/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-compiler[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Skipping verification for Spring configuration class in file '/home/ch61/iDFlakies/cloud-slang/cloudslang-compiler/src/main/java/io/cloudslang/lang/compiler/configuration/SlangCompilerSpringConfig.java'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-compiler/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 309 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-compiler[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-compiler[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-compiler:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (588 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (9.1 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (9.1 seconds elapsed (18.6 total), 36.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (18.6 seconds elapsed (27.5 total), 43.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (27.5 seconds elapsed (36.9 total), 41.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (36.9 seconds elapsed (46.0 total), 36.9 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (46.0 seconds elapsed (55.6 total), 30.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (55.6 seconds elapsed (65.2 total), 23.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (65.2 seconds elapsed (75.0 total), 16.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (75.0 seconds elapsed (84.3 total), 8.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (84.3 seconds elapsed (93.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-compiler/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-compiler/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mio.cloudslang.lang:cloudslang-runtime[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-runtime 2.0.14-SNAPSHOT                       [7/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-runtime[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 12 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-runtime[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-runtime[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-runtime:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (175 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.runtime.steps.ExecutableStepsTest.testBoundInputEvent, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.runtime.steps.ExecutableStepsTest.testBoundInputEvent, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 1 of 10 (0.0 seconds elapsed (13.7 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (18.3 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (4.7 seconds elapsed (22.8 total), 18.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (9.1 seconds elapsed (27.7 total), 21.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (14.0 seconds elapsed (32.8 total), 20.9 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (19.1 seconds elapsed (37.7 total), 19.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (24.0 seconds elapsed (42.4 total), 16.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (28.7 seconds elapsed (47.1 total), 12.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.runtime.steps.ExecutableStepsTest.testBoundInputEvent, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified io.cloudslang.lang.runtime.steps.ExecutableStepsTest.testBoundInputEvent, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 8 of 10 (33.4 seconds elapsed (58.5 total), 8.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (44.8 seconds elapsed (63.4 total), 5.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (49.7 seconds elapsed (68.1 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-runtime/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-runtime/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.cloudslang.lang:cloudslang-all[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-all 2.0.14-SNAPSHOT                           [8/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-all[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-all/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-all[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-all[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-all:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (16 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (1.8 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (1.8 seconds elapsed (3.7 total), 7.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (3.7 seconds elapsed (5.4 total), 8.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (5.4 seconds elapsed (7.3 total), 8.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (7.3 seconds elapsed (9.2 total), 7.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (9.2 seconds elapsed (11.2 total), 6.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (11.2 seconds elapsed (12.9 total), 4.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (12.9 seconds elapsed (14.7 total), 3.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (14.7 seconds elapsed (16.4 total), 1.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (16.4 seconds elapsed (18.4 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-all/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-all/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mio.cloudslang.lang:cloudslang-api-commons[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-api-commons 2.0.14-SNAPSHOT                   [9/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-api-commons[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-api-commons/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 12 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-api-commons[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-api-commons[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-api-commons:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (5 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (1.6 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (1.6 seconds elapsed (3.1 total), 6.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (3.1 seconds elapsed (4.6 total), 7.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (4.6 seconds elapsed (6.2 total), 6.9 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (6.2 seconds elapsed (7.7 total), 6.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (7.7 seconds elapsed (9.3 total), 5.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (9.3 seconds elapsed (10.7 total), 4.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (10.7 seconds elapsed (12.3 total), 2.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (12.3 seconds elapsed (13.8 total), 1.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (13.8 seconds elapsed (15.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-api-commons/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-api-commons/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mio.cloudslang.lang:cloudslang-cli[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-cli 2.0.14-SNAPSHOT                          [10/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-cli[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:copy-resources[m [1m(copy-maven-conf)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:copy-resources[m [1m(copy-cslang-configuration)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.1.2:unpack[m [1m(unpack)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.apache.maven:apache-maven:bin:3.3.9:zip
+[[1;34mINFO[m] apache-maven-3.3.9-bin.zip already unpacked.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 11 resources
+[[1;34mINFO[m] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 29 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-cli[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-cli[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-cli:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (71 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (5.6 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (5.6 seconds elapsed (11.3 total), 22.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (11.3 seconds elapsed (16.9 total), 26.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (16.9 seconds elapsed (22.7 total), 25.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (22.7 seconds elapsed (28.1 total), 22.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (28.1 seconds elapsed (33.6 total), 18.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (33.6 seconds elapsed (39.1 total), 14.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (39.1 seconds elapsed (44.6 total), 9.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (44.6 seconds elapsed (50.4 total), 5.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (50.4 seconds elapsed (55.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-cli/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-cli/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.cloudslang.lang:cloudslang-tests[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-tests 2.0.14-SNAPSHOT                        [11/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-tests[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-tests/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 240 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(default)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;33mWARNING[m] Parameter tasks is deprecated, use target instead
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [unzip] Expanding: /home/ch61/iDFlakies/cloud-slang/cloudslang-tests/target/test-classes/dependencies-base.zip into /home/ch61/iDFlakies/cloud-slang/cloudslang-tests/target/test-classes/test-mvn-repo
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-tests[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-tests[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-tests:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (136 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (124.0 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (124.0 seconds elapsed (231.5 total), 496.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (231.5 seconds elapsed (359.0 total), 540.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (359.0 seconds elapsed (487.6 total), 538.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (487.6 seconds elapsed (596.3 total), 487.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (596.3 seconds elapsed (725.1 total), 397.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (725.1 seconds elapsed (850.0 total), 310.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (850.0 seconds elapsed (970.8 total), 212.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (970.8 seconds elapsed (1093.3 total), 107.9 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (1093.3 seconds elapsed (1212.9 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-tests/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-tests/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36mio.cloudslang.lang:cloudslang-content-verifier[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-content-verifier 2.0.14-SNAPSHOT             [12/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-content-verifier[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:copy-resources[m [1m(copy-maven-conf)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:copy-resources[m [1m(copy-cslang-configuration)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.1.2:unpack[m [1m(unpack)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.apache.maven:apache-maven:bin:3.3.9:zip
+[[1;34mINFO[m] apache-maven-3.3.9-bin.zip already unpacked.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 10 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 23 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-content-verifier[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-content-verifier[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-content-verifier:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (99 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (2.9 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (2.9 seconds elapsed (5.5 total), 11.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (5.5 seconds elapsed (8.4 total), 12.9 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (8.4 seconds elapsed (11.3 total), 12.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (11.3 seconds elapsed (14.1 total), 11.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (14.1 seconds elapsed (17.0 total), 9.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (17.0 seconds elapsed (19.9 total), 7.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (19.9 seconds elapsed (22.5 total), 5.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (22.5 seconds elapsed (25.3 total), 2.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (25.3 seconds elapsed (28.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-content-verifier/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-content-verifier/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.cloudslang.lang:cloudslang-content-maven-compiler[0;1m >--------[m
+[[1;34mINFO[m] [1mBuilding cloudslang-content-maven-compiler 2.0.14-SNAPSHOT       [13/13][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mcloudslang-content-maven-compiler[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.17:check[m [1m(checkstyle-for-java-sources)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/iDFlakies/cloud-slang/cloudslang-content-maven-compiler/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense-maven-plugin:4.0:check[m [1m(default)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Checking licenses...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplexus-component-metadata:2.1.0:generate-metadata[m [1m(default)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Discovered 1 component descriptors(s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplexus-component-metadata:2.1.0:merge-metadata[m [1m(default)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mcloudslang-content-maven-compiler[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2.1:testplugin[m [1m(default-cli)[m @ [36mcloudslang-content-maven-compiler[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving io.cloudslang.lang:cloudslang-content-maven-compiler:2.0.14-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (1 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (0.7 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (0.7 seconds elapsed (1.3 total), 2.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (1.3 seconds elapsed (2.0 total), 3.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (2.0 seconds elapsed (2.7 total), 3.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (2.7 seconds elapsed (3.4 total), 2.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (3.4 seconds elapsed (4.0 total), 2.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (4.0 seconds elapsed (4.7 total), 1.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (4.7 seconds elapsed (5.3 total), 1.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (5.3 seconds elapsed (6.0 total), 0.6 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (6.0 seconds elapsed (6.7 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/iDFlakies/cloud-slang/cloudslang-content-maven-compiler/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/iDFlakies/cloud-slang/cloudslang-content-maven-compiler/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for io.cloudslang.lang:cloudslang 2.0.14-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] io.cloudslang.lang:cloudslang ...................... [1;32mSUCCESS[m [  1.307 s]
+[[1;34mINFO[m] cloudslang-enforcer ................................ [1;32mSUCCESS[m [  2.518 s]
+[[1;34mINFO[m] cloudslang-spi ..................................... [1;32mSUCCESS[m [  0.525 s]
+[[1;34mINFO[m] cloudslang-entities ................................ [1;32mSUCCESS[m [01:05 min]
+[[1;34mINFO[m] cloudslang-commons ................................. [1;32mSUCCESS[m [  9.291 s]
+[[1;34mINFO[m] cloudslang-compiler ................................ [1;32mSUCCESS[m [02:04 min]
+[[1;34mINFO[m] cloudslang-runtime ................................. [1;32mSUCCESS[m [01:24 min]
+[[1;34mINFO[m] cloudslang-all ..................................... [1;32mSUCCESS[m [ 20.773 s]
+[[1;34mINFO[m] cloudslang-api-commons ............................. [1;32mSUCCESS[m [ 17.182 s]
+[[1;34mINFO[m] cloudslang-cli ..................................... [1;32mSUCCESS[m [01:03 min]
+[[1;34mINFO[m] cloudslang-tests ................................... [1;32mSUCCESS[m [26:27 min]
+[[1;34mINFO[m] cloudslang-content-verifier ........................ [1;32mSUCCESS[m [ 33.870 s]
+[[1;34mINFO[m] cloudslang-content-maven-compiler .................. [1;32mSUCCESS[m [  9.451 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  33:40 min
+[[1;34mINFO[m] Finished at: 2021-12-01T10:53:50-06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

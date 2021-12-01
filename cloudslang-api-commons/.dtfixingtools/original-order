@@ -1,0 +1,5 @@
+io.cloudslang.lang.commons.services.impl.SlangCompilationServiceImplTest.testCompileFoldersCleanup
+io.cloudslang.lang.commons.services.impl.SlangCompilationServiceImplTest.testLoadInputsFromFile
+io.cloudslang.lang.commons.services.impl.UserConfigurationServiceImplTest.loadUserPropertiesMissingFolderValid
+io.cloudslang.lang.commons.services.impl.UserConfigurationServiceImplTest.loadUserPropertiesSimple
+io.cloudslang.lang.commons.services.impl.UserConfigurationServiceImplTest.loadUserPropertiesSubstitution

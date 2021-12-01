@@ -1,0 +1,5 @@
+io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt
+io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValuePreEncrypted
+io.cloudslang.fortest.SensitiveValueTest.testEncryptedStringSensitiveValue
+io.cloudslang.lang.entities.bindings.values.ValueFactoryTest.testCreatePyObjectValueFromValueSensitive
+io.cloudslang.lang.entities.DeserializeTest.testDeserializeInput

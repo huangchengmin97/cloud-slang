@@ -1,0 +1,4 @@
+io.cloudslang.lang.logging.LoggingServiceImplTest.testLogEventWithTwoParams
+io.cloudslang.lang.logging.LoggingServiceImplTest.testInitialize
+io.cloudslang.lang.logging.LoggingServiceImplTest.testLogEventWithThreeParams
+io.cloudslang.lang.logging.LoggingServiceImplTest.testDestroy

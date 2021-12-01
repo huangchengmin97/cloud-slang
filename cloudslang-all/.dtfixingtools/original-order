@@ -1,0 +1,16 @@
+io.cloudslang.lang.api.SlangImplTest.testRunWithNullInputs
+io.cloudslang.lang.api.SlangImplTest.testRun
+io.cloudslang.lang.api.SlangImplTest.testCompileWithNullDependencies
+io.cloudslang.lang.api.SlangImplTest.testRunWithNullCompilationArtifact
+io.cloudslang.lang.api.SlangImplTest.testCompileWithNoFilePath
+io.cloudslang.lang.api.SlangImplTest.testCompileWithDependencies
+io.cloudslang.lang.api.SlangImplTest.testExtractMetadata
+io.cloudslang.lang.api.SlangImplTest.testSubscribeOnEventsWithListener
+io.cloudslang.lang.api.SlangImplTest.testCompileOperationWithException
+io.cloudslang.lang.api.SlangImplTest.testCompileWithCorruptedFilePath
+io.cloudslang.lang.api.SlangImplTest.testCompile
+io.cloudslang.lang.api.SlangImplTest.testUnSubscribeOnEvents
+io.cloudslang.lang.api.SlangImplTest.testSubscribeOnAllEventsWithListener
+io.cloudslang.lang.api.SlangImplTest.testLaunch
+io.cloudslang.lang.api.SlangImplTest.testExtractMetadataNoFilePath
+io.cloudslang.lang.api.SlangImplTest.testLaunchOperation
